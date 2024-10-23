@@ -33,19 +33,19 @@ try:
             sleep(0.25)
             print("Draw :|")
             draw+=1
-            print(f"Win={win} Lose={lose} Tie={draw}")
+            print(f"Win={win} Lose={lose} Draw={draw}")
             sleep(0.75)
         elif (userDec==1 and pcDec==3) or (userDec==2 and pcDec==1) or (userDec==3 and pcDec==2):        
             sleep(0.25)
             print("You Win :)")
             win+=1
-            print(f"Win={win} Lose={lose} Tie={draw}")
+            print(f"Win={win} Lose={lose} Draw={draw}")
             sleep(0.75)
         else:
             sleep(0.75)
             print("You lose :(")
             lose+=1
-            print(f"Win={win} Lose={lose} Tie={draw}")
+            print(f"Win={win} Lose={lose} Draw={draw}")
             sleep(0.75)
 except KeyboardInterrupt:
     print("\nThanks for playing...") 
